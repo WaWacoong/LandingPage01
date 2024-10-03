@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+Navbar {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+Navbar .logo img, .logo{
+    width: 100%;
+    max-width: 163px;
+    height: 47.5px;
+}
+Navbar .menu{
+    width: 100%;
+    max-width: 577px;
+    height: 21px;
+    border: 1px solid red;
+    display: flex;
+}
+
+
