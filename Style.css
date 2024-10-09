@@ -65,4 +65,13 @@ Navbar .menu li:nth-child(5){
 .banner .banner-text h1{
     font-size: 72px;
 }
+.banner .banner-box{
+    width: 100%;
+    max-width: 416px;
+    height: 190px;
+    border: 1px solid red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
