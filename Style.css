@@ -212,6 +212,8 @@ Navbar .menu li:nth-child(5){
         padding-left: 40px;
         border-radius: 2px;
         position: absolute;
+        left: 840px;
+        top: 147px;
         .text{
             width: 100%;
             max-width: 159px;
@@ -241,6 +243,35 @@ Navbar .menu li:nth-child(5){
             justify-content: center;
             align-items: center;
             margin-top: 74px;
+        }
+    }
+}
+.content3{
+    height: 608px;
+    .text{
+        width: 100%;
+        max-width: 151px;
+        height: 42px;
+        margin-top: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        h4{
+            font-size: 36px;
+            color: #292E3D;
+        }
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto;
+        .box1, .box2, .box3, .box4, .box5, .box6{
+            width: 100%;
+            max-width: 271px;
+            height: 181px;
+            margin-right: 98px;
         }
     }
 }
