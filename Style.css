@@ -262,6 +262,7 @@ Navbar .menu li:nth-child(5){
     }
     .box{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin-top: 36px;
@@ -272,6 +273,63 @@ Navbar .menu li:nth-child(5){
             max-width: 271px;
             height: 181px;
             margin-right: 98px;
+            .icon{
+                width: 100%;
+                max-width: 40px;
+                height: 40px;
+                margin-top: 38px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .line{
+                width: 100%;
+                max-width: 61px;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .text-2{
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .text-box1{
+                width: 100%;
+                max-width: 128px;
+                height: 23px;
+            }
+            .text-box2{
+                width: 100%;
+                max-width: 110px;
+                height: 23px;
+                
+            }
+            .text-box3{
+                width: 100%;
+                max-width: 126px;
+                height: 23px;
+            }
+            .text-box4{
+                width: 100%;
+                max-width: 152px;
+                height: 23px;
+            }
+            .text-box5{
+                width: 100%;
+                max-width: 124px;
+                height: 23px;
+            }
+            .text-box6{
+                width: 100%;
+                max-width: 76px;
+                height: 23px;
+            }
+            div:nth-child(even){
+                background-color: #FFFFFF;
+                color: #2947A9;
+            }
         }
     }
 }
