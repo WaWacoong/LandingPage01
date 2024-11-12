@@ -248,11 +248,12 @@ Navbar .menu li:nth-child(5){
 }
 .content3{
     height: 608px;
+    background-color: #F6F8F7;
+    padding-top: 40px;
     .text{
         width: 100%;
         max-width: 151px;
         height: 42px;
-        margin-top: 44px;
         margin-left: auto;
         margin-right: auto;
         h4{
@@ -268,11 +269,15 @@ Navbar .menu li:nth-child(5){
         margin-top: 36px;
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
+        max-width: 1009px;
+        column-gap: 98px;
+        row-gap: 48px;
         .box1, .box2, .box3, .box4, .box5, .box6{
             width: 100%;
             max-width: 271px;
             height: 181px;
-            margin-right: 98px;
+            border-radius: 4px;
             .icon{
                 width: 100%;
                 max-width: 40px;
@@ -326,10 +331,15 @@ Navbar .menu li:nth-child(5){
                 max-width: 76px;
                 height: 23px;
             }
-            div:nth-child(even){
-                background-color: #FFFFFF;
-                color: #2947A9;
-            }
+        }
+        div:nth-child(even){
+            background-color: #2947A9;
+        }
+        div:nth-child(odd){
+            background-color: #FFFFFF;
+        }
+        .icon, .line, .text-2{
+            background-color: unset !important;
         }
     }
 }
