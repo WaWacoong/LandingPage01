@@ -278,6 +278,7 @@ Navbar .menu li:nth-child(5){
             max-width: 271px;
             height: 181px;
             border-radius: 4px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             .icon{
                 width: 100%;
                 max-width: 40px;
@@ -334,6 +335,7 @@ Navbar .menu li:nth-child(5){
         }
         div:nth-child(even){
             background-color: #2947A9;
+            color: #FFFFFF;
         }
         div:nth-child(odd){
             background-color: #FFFFFF;
@@ -341,6 +343,19 @@ Navbar .menu li:nth-child(5){
         .icon, .line, .text-2{
             background-color: unset !important;
         }
+        .box1, .box3, .box5{
+            color: #2947A9;
+        }
+    }
+}
+.content4{
+    height: 723px;
+    background-color: #FFFFFF;
+    .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
